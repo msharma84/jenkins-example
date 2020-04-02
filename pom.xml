@@ -56,6 +56,15 @@
     </dependencies>
 
     <repositories>
+       <repository>
+            <id>central</id>
+            <name>Maven Plugin Repository</name>
+            <url>https://repo1.maven.org/maven2</url>
+            <layout>default</layout>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
         <repository>
             <id>myMavenRepo.read</id>
             <url>https://mymavenrepo.com/repo/FN8PIshHk5uALNhkXbhs/</url>
